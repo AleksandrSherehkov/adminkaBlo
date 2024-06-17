@@ -1,0 +1,12 @@
+.bazi-modal-container {
+  align-items: center!important;
+
+  .bazi-modal {
+    margin: 0!important;
+    max-height: 100%;
+
+    form {
+      overflow-y: scroll;
+    }
+  }
+}

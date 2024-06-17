@@ -1,0 +1,42 @@
+html {
+  background-color: #e6e3da;
+}
+:root {
+  background-color: #e6e3da;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #333;
+}
+
+.input {
+  border-radius: 60px;
+  border: 1px solid hsla(225, 6%, 12%, 0.4);
+  background: #ffffff;
+  outline: none;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.bazi-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  transition: color 0.5s ease;
+  box-sizing: border-box;
+  color: #fff;
+  background: #8d0707;
+  // text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    background: #ad0909;
+  }
+}

@@ -1,0 +1,4 @@
+[
+  { "type": "email", "name": "email", "placeholder": "E-mail address" },
+  { "type": "password", "name": "password", "placeholder": "Password" }
+]

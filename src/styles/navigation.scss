@@ -1,0 +1,50 @@
+aside,
+.burger-menu {
+  width: 320px;
+}
+
+.burger-menu {
+  header {
+    min-height: 70px;
+    height: 70px;
+
+    .close-btn {
+      font-size: 2rem;
+    }
+  }
+
+  nav {
+    @apply px-3;
+  }
+}
+
+nav {
+  ul {
+    li {
+      ul {
+        padding-left: 20px;
+        padding-top: .5rem;
+
+        li {
+          position: relative;
+          &::before {
+            background: #333;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            position: absolute;
+            top: 20px;
+            transform: translate(150%, -50%);
+            content: '';
+          }
+        }
+      }
+    }
+  }
+
+  a.active {
+    @apply rounded;
+    background-color: #e9e4de;
+    font-weight: 700;
+  }
+}
